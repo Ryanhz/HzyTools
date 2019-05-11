@@ -36,7 +36,7 @@ public class HzyPopoverAnimator: NSObject {
 // MARK:- 自定义转场代理的方法
 extension HzyPopoverAnimator : UIViewControllerTransitioningDelegate {
     // 目的:改变弹出View的尺寸
-    private func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+    public func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         
         let presentation = HzyPresentationController(presentedViewController: presented, presenting: presenting)
         presentation.presentedPortraitFrame = presentedFrame
@@ -45,7 +45,7 @@ extension HzyPopoverAnimator : UIViewControllerTransitioningDelegate {
     }
     
     // 目的:自定义弹出的动画
-    private func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         
         isPresented = true
         callBack!(isPresented)
@@ -53,7 +53,7 @@ extension HzyPopoverAnimator : UIViewControllerTransitioningDelegate {
     }
     
     // 目的:自定义消失的动画
-    private func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         isPresented = false
         callBack!(isPresented)
         return self

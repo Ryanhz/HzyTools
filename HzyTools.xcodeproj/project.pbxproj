@@ -139,6 +139,7 @@
 		30E451832283C4C7002BABDC /* ReuseOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseOnce.swift; sourceTree = "<group>"; };
 		30E451842283C4C7002BABDC /* HzyViewMaskable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyViewMaskable.swift; sourceTree = "<group>"; };
 		30E451852283C4C7002BABDC /* UIViewTouchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewTouchable.swift; sourceTree = "<group>"; };
+		448EE54322865D4500EF2C65 /* rmgc.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = rmgc.gpx; path = ../../../Desktop/rmgc.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +170,7 @@
 		30E450FF2283C446002BABDC = {
 			isa = PBXGroup;
 			children = (
+				448EE54322865D4500EF2C65 /* rmgc.gpx */,
 				30E451392283C4A4002BABDC /* Source */,
 				30E4510A2283C447002BABDC /* HzyTools */,
 				30E4511F2283C44A002BABDC /* HzyToolsTests */,
@@ -890,7 +892,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzy.HzyTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -908,7 +910,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzy.HzyTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
