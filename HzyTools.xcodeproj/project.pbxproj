@@ -60,6 +60,7 @@
 		30E451B12283C4C7002BABDC /* ReuseOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E451832283C4C7002BABDC /* ReuseOnce.swift */; };
 		30E451B22283C4C7002BABDC /* HzyViewMaskable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E451842283C4C7002BABDC /* HzyViewMaskable.swift */; };
 		30E451B32283C4C7002BABDC /* UIViewTouchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E451852283C4C7002BABDC /* UIViewTouchable.swift */; };
+		44ECCBDB228729BB00E1F6C6 /* rmgc.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 44ECCBDA228729BB00E1F6C6 /* rmgc.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,7 +140,7 @@
 		30E451832283C4C7002BABDC /* ReuseOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseOnce.swift; sourceTree = "<group>"; };
 		30E451842283C4C7002BABDC /* HzyViewMaskable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HzyViewMaskable.swift; sourceTree = "<group>"; };
 		30E451852283C4C7002BABDC /* UIViewTouchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewTouchable.swift; sourceTree = "<group>"; };
-		448EE54322865D4500EF2C65 /* rmgc.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = rmgc.gpx; path = ../../../Desktop/rmgc.gpx; sourceTree = "<group>"; };
+		44ECCBDA228729BB00E1F6C6 /* rmgc.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rmgc.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +171,7 @@
 		30E450FF2283C446002BABDC = {
 			isa = PBXGroup;
 			children = (
-				448EE54322865D4500EF2C65 /* rmgc.gpx */,
+				44ECCBDA228729BB00E1F6C6 /* rmgc.gpx */,
 				30E451392283C4A4002BABDC /* Source */,
 				30E4510A2283C447002BABDC /* HzyTools */,
 				30E4511F2283C44A002BABDC /* HzyToolsTests */,
@@ -635,6 +636,7 @@
 			files = (
 				30E451162283C449002BABDC /* LaunchScreen.storyboard in Resources */,
 				30E451132283C449002BABDC /* Assets.xcassets in Resources */,
+				44ECCBDB228729BB00E1F6C6 /* rmgc.gpx in Resources */,
 				30E451112283C447002BABDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
